@@ -3,10 +3,11 @@ import {
   Home,
   Cosmetology,
   Courses,
-  Teacher,
+  Training,
   Contact,
   Footer,
   Pricing,
+  Testimony,
 } from "./components/index";
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       <Navbar />
       <Home />
       <Cosmetology/>
-      <Teacher />
+      <Training />
       <Courses/>
+      <Testimony/>
       <Pricing/>
       <Contact />
       <Footer />

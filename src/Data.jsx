@@ -19,11 +19,6 @@ export const navLinks = [
   },
   {
     id: 4,
-    href: "About",
-    link: "About",
-  },
-  {
-    id: 5,
     href: "contact",
     link: "Contact",
   },
@@ -65,5 +60,40 @@ export const courses = [
     rating: 4.7,
     participants: 600,
     price:"75k",
+  },
+];
+
+export const carouselData = [
+  {
+    id: 1,
+    Review:
+      "Outstanding salon experience! Professional staff, impeccable service, and a warm ambiance. Highly recommend for anyone seeking quality haircare and a relaxing atmosphere.",
+    Pic: image,
+    name: "Hari Krishna",
+    Designation: "Doctor",
+  },
+  {
+    id: 2,
+    Review:
+      "Outstanding salon experience! Professional staff, impeccable service, and a warm ambiance. Highly recommend for anyone seeking quality haircare and a relaxing atmosphere.",
+    Pic: image,
+    name: "Krishna",
+    Designation: "Doctor",
+  },
+  {
+    id: 3,
+    Review:
+      "Outstanding salon experience! Professional staff, impeccable service, and a warm ambiance. Highly recommend for anyone seeking quality haircare and a relaxing atmosphere.",
+    Pic: image,
+    name: "Raja",
+    Designation: "Doctor",
+  },
+  {
+    id: 4,
+    Review:
+      "Outstanding salon experience! Professional staff, impeccable service, and a warm ambiance. Highly recommend for anyone seeking quality haircare and a relaxing atmosphere.",
+    Pic: image,
+    name: "Sourav",
+    Designation: "Doctor",
   },
 ];

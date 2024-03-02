@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'space-grotesk': ['Space Grotesk', 'sans-serif'],
+      'space-grotesk': ['Space Grotesk'],
       Poppins: "Poppins"
     },
     extend: {
@@ -18,6 +18,7 @@ module.exports = {
         yellow: "#e4d63b",
         Solitude: "#e9e9ea",
         gold: "#CCA000",
+        grey:"#94a3b8"
       },
       animation: {
         slide: "slide 25s linear infinite"

@@ -1,8 +1,8 @@
 import image from "../../assets/image.png";
   
-const Teacher = () => {
+const Training = () => {
   return (
-    <div className="section flex justify-between gap-8" id="teacher">
+    <div className="section flex justify-between gap-8" id="Training">
          <div className="place-items-center gap-12">
            <div className="pl-5">
               <div className="font-bold font-space-grotesk text-5xl mb-5">
@@ -30,9 +30,9 @@ const Teacher = () => {
               >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
               </svg>
@@ -50,5 +50,4 @@ const Teacher = () => {
     </div>
   );
 };
-
-export default Teacher;
+export default Training;
