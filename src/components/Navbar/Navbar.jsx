@@ -27,21 +27,22 @@ const Navbar = () => {
         <div
           className={`${
             active ? "py-0 transition-all duration-300" : "py-0"
-          } container  mx-auto flex items-center justify-between px-2`}
+          } container  mx-auto flex items-center justify-between px-2  h-[72px]`}
         >
           <div className="flex items-center">
             <HiMenuAlt1
-              className="text-2xl sm:hidden cursor-pointer"
+              className="text-2xl sm:hidden text-white cursor-pointer"
               onClick={() => setToggle(true)}
             />
-            <div className="w-7/12">
-              <img className="mt-4" src={TVR} alt="logo" />
-            </div>
+              <img className="w-[198px] h-[126px] mt-8" src={TVR} alt="logo" />
           </div>
           <div className="sm:flex items-center hidden text-1xl ">
             {navLinks.map((navLink) => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
+            <button className=" w-[156.45px] h-[41px]  font-bold text-white bg-gold rounded-[5px] text-[16px]"> 
+                Get Started 
+            </button>
           </div>
           {toggle && (
             <motion.div
@@ -59,6 +60,9 @@ const Navbar = () => {
                   />
                 );
               })}
+              <button className=" md:w-[156.45px] p-2 h-[41px]  font-bold text-white bg-gold rounded-[9px] text-[16px]"> 
+                Get Started 
+            </button>
               <HiX
                 className="absolute right-12 top-12 text-5xl cursor-pointer"
                 onClick={(prev) => setToggle(!prev)}

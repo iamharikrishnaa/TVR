@@ -52,42 +52,76 @@
 
 // export default Testimony;
 
-
 import Slider from "react-slick";
 import { carouselData } from "../../Data";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import { IconButton } from "@mui/material";
+import IconArrowBack from "@mui/icons-material/ArrowBack";
+import IconArrowForward from "@mui/icons-material/ArrowForward";
 
 const Testimony = () => {
+  const SliderArrow = (props) => {
+    const { onClick, type, className } = props;
+    return (
+      <IconButton
+        sx={{
+          backgroundColor: "background.paper",
+          color: "primary.main",
+          "&:hover": {
+            backgroundColor: "primary.main",
+            color: "primary.contrastText",
+          },
+          bottom: "-28px !important",
+          left: "unset !important",
+          right: type === "prev" ? "60px !important" : "0 !important",
+          zIndex: 10,
+          boxShadow: 1,
+        }}
+        disableRipple
+        color="inherit"
+        onClick={onClick}
+        className={className}
+      >
+        {type === "next" ? (
+          <IconArrowForward sx={{ fontSize: 22 }} />
+        ) : (
+          <IconArrowBack sx={{ fontSize: 22 }} />
+        )}
+      </IconButton>
+    );
+  };
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    prevArrow: <SliderArrow type="prev" />,
+    nextArrow: <SliderArrow type="next" />,
+    // responsive: [
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 1200,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
   };
 
   return (
