@@ -7,18 +7,17 @@ module.exports = {
   theme: {
     fontFamily: {
       'space-grotesk': ['Space Grotesk'],
+      'f37': ['F37 Grotesc'],
       Poppins: "Poppins"
     },
     extend: {
       colors: {
-        Teal: "#2F6C6D",
+        bgrey: "#D3D3D3",
         Velvet:"#4D0C44",
         Svelvet:"#940057",
-        HummingBird: "#d1f1ee",
-        yellow: "#e4d63b",
         Solitude: "#e9e9ea",
         gold: "#CCA000",
-        grey:"#94a3b8"
+        grey:"#C1C9D1"
       },
       animation: {
         slide: "slide 25s linear infinite"

@@ -9,17 +9,18 @@ import {
   Pricing,
   Testimony,
 } from "./components/index";
+import "./react-slick.css";
 
 function App() {
   return (
-    <div className="font-Poppins bg-Solitude">
+    <div className="font-space-grotesk bg-Solitude">
       <Navbar />
       <Home />
-      <Cosmetology/>
+      <Cosmetology />
       <Training />
-      <Courses/>
-      <Testimony/>
-      <Pricing/>
+      <Courses />
+      <Testimony />
+      <Pricing />
       <Contact />
       <Footer />
     </div>
