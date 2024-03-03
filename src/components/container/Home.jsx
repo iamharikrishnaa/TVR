@@ -28,7 +28,7 @@ const Home = () => {
               <button className="w-[246px] h-[67px]  font-bold text-white bg-gold rounded-[5px] text-lg">
                 Contact-Us
               </button>
-              <div className="flex w-[217px] h-[48px] justify-center items-center">
+              <div className="md:flex w-[217px] h-[48px] justify-center items-center">
                 <PlayCircleOutlineIcon
                   className="text-gold"
                   style={{ fontSize: "3rem" }}
