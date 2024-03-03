@@ -270,7 +270,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-10">
-              <button className="px-2 py-1 font-bold text-white bg-gold rounded-lg text-sm">
+              <button className="px-2 py-1 font-bold text-white bg-gold rounded-[2px] text-sm">
                 Get Started
               </button>
             </div>
@@ -325,7 +325,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-10">
-              <button className="px-2 py-1 font-bold text-white bg-gold rounded-lg text-sm">
+              <button className="px-2 py-1 font-bold text-white bg-gold rounded-[2px] text-sm">
                 Get Started
               </button>
             </div>
@@ -380,7 +380,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-10">
-              <button className="px-2 py-1 font-bold text-white bg-gold rounded-lg text-sm">
+              <button className="px-2 py-1 font-bold text-white bg-gold rounded-[2px] text-sm">
                 Get Started
               </button>
             </div>
