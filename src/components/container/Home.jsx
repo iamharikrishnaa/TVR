@@ -33,8 +33,8 @@ const Home = () => {
                   className="text-gold"
                   style={{ fontSize: "3rem" }}
                 />
-                <div className="w-[80px] bg-primary border-b-2 mx-4"></div>
-                <p className="text-white h-[30px] w-[73px]">Explore</p>
+                <div className="w-[80px] border-b-2 -mx-0"></div>
+                <p className="text-white ml-3 h-[26px] w-[73px]">Explore</p>
               </div>
               </div>
             </div>
