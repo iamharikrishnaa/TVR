@@ -27,14 +27,14 @@ const Navbar = () => {
         <div
           className={`${
             active ? "py-0 transition-all duration-300" : "py-0"
-          } container  mx-auto flex items-center justify-between px-2  h-[72px]`}
+          } container  mx-auto flex items-center justify-between  h-[72px]`}
         >
           <div className="flex items-center">
             <HiMenuAlt1
               className="text-2xl sm:hidden text-white cursor-pointer"
               onClick={() => setToggle(true)}
             />
-              <img className="w-[198px] h-[126px] mt-8" src={TVR} alt="logo" />
+              <img className=" h-[126px] mt-8" src={TVR} alt="logo" />
           </div>
           <div className="sm:flex items-center hidden text-1xl ">
             {navLinks.map((navLink) => {

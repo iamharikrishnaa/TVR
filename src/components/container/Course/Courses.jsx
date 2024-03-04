@@ -2,6 +2,7 @@ import React from "react";
 import { courses } from "../../../Data";
 import Course from "./Course";
 import { motion } from "framer-motion";
+import line from "../../../assets/line.png";
 
 const Courses = () => {
   const container = {
@@ -19,13 +20,19 @@ const Courses = () => {
     },
   };
   return (
-    <div className="bg-Velvet justify-center">
+    <div className="bg-Velvet  justify-center">
       <div className="section" id="Training">
         <div className=" text-center text-white">
-          <div className="text-xs">10 Unique Courses</div>
-          <div className="text-3xl font-space-grotesk ">
+          <div className="text-[20px] font-light">10 Unique Courses</div>
+          <div className="text-[32px] font-space-grotesk ">
+            {" "}
             May You Also Like <span className="text-gold">More Courses</span>
           </div>
+          <img
+            className="w-[305px] ml-[500px] -mb-4 h-[44px] text-gold "
+            src={line}
+            alt="line"
+          />
           <p className="font-F37-grotesk text-sm mt-10">
             "Explore our collaboration with Mumbai-based company Cosderma to
             provide a diverse range of education courses in the Training

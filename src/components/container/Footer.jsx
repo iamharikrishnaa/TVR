@@ -13,9 +13,9 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <motion.div
-      initial={{ height: 0 }}
-      whileInView={{ height: "auto" }}
-      transition={{ duration: 1 }}
+      // initial={{ height: 0 }}
+      // whileInView={{ height: "auto" }}
+      // transition={{ duration: 1 }}
       className="p-10"
     >
       <div className="grid md:grid-cols-4 sm:grid-cols-3  xs:grid-cols-2 grid-cols-1 place-items-start gap-8">

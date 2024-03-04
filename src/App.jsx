@@ -16,7 +16,7 @@ function App() {
     <div className="font-space-grotesk bg-Solitude">
       <Navbar />
       <Home />
-      <Cosmetology />
+      <Cosmetology/>
       <Training />
       <Courses />
       <Testimony />
