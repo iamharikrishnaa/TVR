@@ -27,11 +27,11 @@ const Navbar = () => {
         <div
           className={`${
             active ? "py-0 transition-all duration-300" : "py-0"
-          } container  mx-auto flex items-center justify-between  h-[72px]`}
+          } container  mx-auto flex items-center justify-between h-[72px]`}
         >
           <div className="flex items-center">
             <HiMenuAlt1
-              className="text-2xl sm:hidden text-white cursor-pointer"
+              className="text-4xl sm:hidden text-white cursor-pointer"
               onClick={() => setToggle(true)}
             />
               <img className=" h-[126px] mt-8" src={TVR} alt="logo" />
@@ -49,7 +49,7 @@ const Navbar = () => {
               initial={{ x: -500, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.3 }}
-              className="fixed h-full top-0 left-0 z-20 bg-Velvet text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8"
+              className="fixed h-full w-[25rem] top-0 left-0 z-20 bg-Velvet text-white flex flex-col text-[38px] justify-center items-center shadow-lg gap-8 py-auto"
             >
               {navLinks.map((navLink) => {
                 return (
@@ -60,7 +60,7 @@ const Navbar = () => {
                   />
                 );
               })}
-              <button className=" md:w-[156.45px] p-2 h-[41px]  font-bold text-white bg-gold rounded-[9px] text-[16px]"> 
+              <button className="w-[200px] h-[60px]  font-bold text-white bg-gold rounded-[9px] text-[28px]"> 
                 Get Started 
             </button>
               <HiX
