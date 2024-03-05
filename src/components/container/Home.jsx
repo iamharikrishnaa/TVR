@@ -4,7 +4,7 @@ import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 
 const Home = () => {
   return (
-    <div className="section h-[766px]" id="home">
+    <div className="section h-[766px] w-full" id="home">
       <video
         autoPlay
         loop
@@ -46,3 +46,4 @@ const Home = () => {
 };
 
 export default Home;
+

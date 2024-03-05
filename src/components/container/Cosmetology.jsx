@@ -29,3 +29,4 @@ const Cosmetology = () => {
 };
 
 export default Cosmetology;
+
